@@ -39,13 +39,11 @@
   </a>
 </p>
 
-<h3 align="left"✨ GitHub Stats:</h3>
-
+<h3 align="left">✨ GitHub Stats:</h3>
 
 <p align="left">
   <img src="https://github-readme-stats.vercel.app/api/top-langs?username=thefalked&show_icons=true&locale=en&layout=compact&theme=tokyonight" alt="thefalked" />
 </p>
-
 
 <p align="left">
   <img src="https://github-readme-stats.vercel.app/api?username=thefalked&show_icons=true&locale=en&theme=tokyonight" alt="thefalked" />
