@@ -1,11 +1,11 @@
 <h1 align="center">Hi 👋, I'm Giuliano</h1>
-<h3 align="center">I'm a frontend developer from Brazil fullstack on Ruby on Rails and IT lover.</h3>
+<h3 align="center">I'm a frontend developer from Brazil in ReactJS and IT lover.</h3>
 
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=thefalked&label=Profile%20views&colorblueviolet&style=flat" alt="thefalked" />
 </p>
 
-- 🌱 I’m currently learning **React.js and Node.js**
+- 🌱 I’m currently learning **Node.js**
 
 - 📫 How to reach me **giulianocrivelli@hotmail.com**
 
