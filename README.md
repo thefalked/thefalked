@@ -1,13 +1,13 @@
 <h1 align="center">Hi 👋, I'm Giuliano</h1>
-<h3 align="center">I'm a frontend developer from Brazil in ReactJS and IT lover.</h3>
+<h3 align="center">I'm a frontend developer and IT lover from Brazil!</h3>
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=thefalked&label=Profile%20views&colorblueviolet&style=flat" alt="thefalked" />
+  <img src="https://komarev.com/ghpvc/?username=thefalked&label=Profile%20views&colorblueviolet&style=flat" alt="Profile views" />
 </p>
 
-- 🌱 I’m currently learning **Node.js**
+- 🌱 I’m constantly learning about **Node.js** and **React**
 
-- 📫 How to reach me **giulianocrivelli@hotmail.com**
+- 📫 Reach me at **thegiulianoofficial@gmail.com**
 
 <h3 align="left">📱 Connect with me:</h3>
 <p align="left">
@@ -18,30 +18,14 @@
 </p>
 
 <h3 align="left">🛠 Languages and Tools:</h3>
-<p align="left">
-  <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40" />
-  </a>
-  <a href="https://reactjs.org/" target="_blank">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40" />
-  </a>
-  <a href="https://www.typescriptlang.org/" target="_blank">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" alt="typescript" width="40" height="40" />
-  </a>
-  <a href="https://nextjs.org/" target="_blank">
-    <img src="https://cdn.worldvectorlogo.com/logos/nextjs-2.svg" alt="nextjs" width="40" height="40" />
-  </a>
-  <a href="https://nodejs.org" target="_blank">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="40" height="40" />
-  </a>
-</p>
+
+<code><img height="32" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png" alt="Javascript"/></code>
+<code><img height="32" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/typescript/typescript.png" alt="Typescript"/></code>
+<code><img height="32" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/react/react.png" alt="React"/></code>
+<code><img height="32" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/nodejs/nodejs.png" alt="Nodejs"/></code>
+<code><img height="32" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png" alt="HTML5"/></code>
+<code><img height="32" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/css/css.png" alt="CSS"/></code>
 
 <h3 align="left">✨ GitHub Stats:</h3>
 
-<p align="left">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=thefalked&show_icons=true&locale=en&layout=compact&theme=tokyonight" alt="thefalked" />
-</p>
-
-<p align="left">
-  <img src="https://github-readme-stats.vercel.app/api?username=thefalked&show_icons=true&locale=en&theme=tokyonight" alt="thefalked" />
-</p>
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=thefalked&show_icons=true&locale=en&theme=tokyonight)
