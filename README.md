@@ -7,7 +7,7 @@
 
 - 🌱 I’m constantly learning about **Node.js** and **React**
 
-- 📫 Reach me at **thegiulianoofficial@gmail.com**
+- 📫 Reach me at **giuliano@thefalked.dev**
 
 <h3 align="left">📱 Connect with me:</h3>
 <p align="left">
