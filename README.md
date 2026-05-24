@@ -1,31 +1,49 @@
 <h1 align="center">Hi 👋, I'm Giuliano</h1>
-<h3 align="center">I'm a frontend developer and IT lover from Brazil!</h3>
+<h3 align="center">Frontend developer from Brazil 💜 building interfaces with React & TypeScript</h3>
 
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=thefalked&label=Profile%20views&colorblueviolet&style=flat" alt="Profile views" />
-</p>
+---
 
-- 🌱 I’m constantly learning about **Node.js** and **React**
+## About me
 
-- 📫 Reach me at **giuliano@thefalked.dev**
+- 🧑‍💻 Frontend developer at [**@shiftinc**](https://github.com/shiftinc), focused on clean UI and developer experience
+- 🎓 Degree in Analysis and Development of Systems
+- 🌱 Deepening my skills in **React**, **TypeScript**, and **Node.js**
+- 🇧🇷 Based in Brazil
+- 📫 [giuliano@thefalked.dev](mailto:giuliano@thefalked.dev)
 
-<h3 align="left">📱 Connect with me:</h3>
-<p align="left">
-  <a href="https://linkedin.com/in/giuliano-crivelli" target="blank">
-    <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" 
-    alt="giuliano-crivelli" height="30" width="40" />
-  </a>
-</p>
+---
 
-<h3 align="left">🛠 Languages and Tools:</h3>
+## Featured projects
 
-<code><img height="32" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png" alt="Javascript"/></code>
-<code><img height="32" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/typescript/typescript.png" alt="Typescript"/></code>
-<code><img height="32" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/react/react.png" alt="React"/></code>
-<code><img height="32" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/nodejs/nodejs.png" alt="Nodejs"/></code>
+| Project | Description |
+|---------|-------------|
+| [**04-design-system**](https://github.com/thefalked/04-design-system) | Monorepo for a component library and design system |
+| [**02-ignite-timer**](https://github.com/thefalked/02-ignite-timer) | Pomodoro timer built with React, TypeScript, and Vite |
+| [**letmeask**](https://github.com/thefalked/letmeask) | Real-time Q&A rooms with Firebase — built during NLW #06 |
+| [**Drink-Count**](https://github.com/thefalked/Drink-Count) | Simple app to track drink liters and costs |
+
+---
+
+## Tech stack
+
+**Languages**
+
+<code><img height="32" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png" alt="JavaScript"/></code>
+<code><img height="32" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/typescript/typescript.png" alt="TypeScript"/></code>
 <code><img height="32" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png" alt="HTML5"/></code>
 <code><img height="32" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/css/css.png" alt="CSS"/></code>
 
-<h3 align="left">✨ GitHub Stats:</h3>
+**Frameworks & runtime**
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=thefalked&show_icons=true&locale=en&theme=tokyonight)
+<code><img height="32" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/react/react.png" alt="React"/></code>
+<code><img height="32" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/nodejs/nodejs.png" alt="Node.js"/></code>
+
+---
+
+## Connect
+
+<p align="left">
+  <a href="https://linkedin.com/in/giuliano-crivelli" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+  </a>
+</p>
