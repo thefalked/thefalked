@@ -7,7 +7,7 @@ import { tv } from "tailwind-variants";
 
 const rootLayout = tv({
   slots: {
-    root: "relative grid h-dvh max-h-dvh grid-rows-[auto_minmax(0,1fr)_auto] overflow-hidden",
+    root: ["relative grid h-dvh max-h-dvh overflow-hidden", "grid-rows-[auto_minmax(0,1fr)_auto]"],
     glowLeft: [
       "pointer-events-none fixed top-[10%] -left-[120px] z-0",
       "hidden h-[320px] w-[320px] rounded-full opacity-25 blur-[100px]",
@@ -23,7 +23,7 @@ const rootLayout = tv({
     main: [
       "relative z-1 flex h-full min-h-0 w-full min-w-0 flex-1",
       "flex-col items-center overflow-hidden",
-      "py-2 lg:px-4 lg:py-4",
+      "px-2 py-2 lg:px-4 lg:py-4",
     ],
   },
 });

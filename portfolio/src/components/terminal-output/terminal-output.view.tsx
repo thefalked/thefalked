@@ -31,8 +31,10 @@ const terminalOutput = tv({
     ],
     linkDescription: "text-terminal-xs text-neon-dim",
     asciiScroll: "max-w-full overflow-x-auto overflow-y-hidden",
-    ascii:
-      "m-0 font-mono whitespace-pre text-neon text-[clamp(0.4rem,2.2cqi,0.75rem)] leading-[1.2]",
+    ascii: [
+      "m-0 font-mono whitespace-pre text-neon",
+      "text-[clamp(0.4rem,2.2cqi,0.75rem)] leading-[1.2]",
+    ],
   },
 });
 

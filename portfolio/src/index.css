@@ -45,8 +45,8 @@
   --color-neon-soft: rgb(110 43 145 / 0.1);
   --color-neon-soft-hover: rgb(110 43 145 / 0.18);
   --color-neon-glow: rgb(155 95 196 / 0.45);
-  --color-bg: #050508;
-  --color-bg-elevated: rgb(10 8 14 / 0.96);
+  --color-surface: #050508;
+  --color-surface-elevated: rgb(10 8 14 / 0.96);
   --color-border: rgb(208 208 208 / 0.14);
   --color-text: #d0d0d0;
   --color-text-muted: #8f8f8f;
@@ -57,7 +57,7 @@
 @layer base {
   html {
     @apply overflow-hidden;
-    font-size: 125%;
+    font-size: 130%;
 
     @variant lg {
       font-size: 100%;
@@ -71,7 +71,7 @@
   }
 
   body {
-    @apply font-mono bg-bg text-text antialiased overflow-hidden;
+    @apply font-mono bg-surface text-text antialiased overflow-hidden;
     padding-left: env(safe-area-inset-left, 0px);
     padding-right: env(safe-area-inset-right, 0px);
   }

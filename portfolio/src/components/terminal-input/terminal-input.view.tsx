@@ -18,7 +18,10 @@ const terminalInput = tv({
       "text-[max(16px,1em)] text-text-bright caret-neon outline-none",
       "lg:text-terminal-md",
     ],
-    hint: "terminal-input-hint pointer-events-none absolute inset-0 z-0 truncate text-neon-dim",
+    hint: [
+      "terminal-input-hint pointer-events-none absolute inset-0 z-0",
+      "truncate text-neon-dim",
+    ],
     srOnly: "sr-only",
   },
 });
