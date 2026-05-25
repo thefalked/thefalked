@@ -1,0 +1,42 @@
+---
+description: Tailwind CSS v4 theme tokens, Tailwind Variants patterns, and responsive conventions
+globs: portfolio/src/**/*.{tsx,css}
+alwaysApply: false
+---
+
+# Styling Conventions
+
+## Tailwind Variants (`tv`)
+
+All component styling uses `tv()` with named slots — no inline className strings.
+
+**Arrays for readability** — break slot strings into arrays when they exceed ~80 chars.
+Group by concern: layout, visual, states, responsive:
+
+```tsx
+root: [
+  "flex h-full w-full min-w-0 max-w-terminal",
+  "flex-col overflow-hidden rounded-terminal border border-border",
+  "bg-bg-elevated backdrop-blur-md shadow-neon-card",
+  "lg:min-h-0 lg:max-h-full sm:rounded-terminal-sm",
+],
+```
+
+## Theme Tokens (`@theme` in `index.css`)
+
+Prefer theme utilities over arbitrary values. The project defines:
+
+- **Type scale**: `text-terminal-2xs` (0.7rem) → `text-terminal-md` (0.9rem), each with `--line-height`
+- **Shadows**: `shadow-neon-dot`, `shadow-neon-card`
+- **Colors**: `bg-control-red/yellow/green`, plus the full neon palette
+- **Sizing**: `max-w-terminal` (via `--container-terminal`)
+- **Radius**: `rounded-terminal`, `rounded-terminal-sm`
+
+Only use arbitrary values (`[...]`) for one-offs like CSS functions, `inherit`, grid templates, or decorative positioning.
+
+## Responsive
+
+- **Mobile-first**: base styles are mobile, override with `sm:`/`lg:`.
+- **Desktop revert at `lg:`**: use `lg:` (not `sm:`) for desktop-only overrides.
+- **Mobile root font-size**: `html { font-size: 112.5% }` below 640px — desktop sizes stay unchanged.
+- **Input zoom prevention**: `#terminal-input` uses `font-size: max(16px, 1em)`.

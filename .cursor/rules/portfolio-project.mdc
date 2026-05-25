@@ -1,0 +1,37 @@
+---
+description: Portfolio project stack, architecture, and tooling conventions
+globs: portfolio/**
+alwaysApply: false
+---
+
+# Portfolio Project
+
+## Stack
+
+- **Runtime / PM**: Bun
+- **Framework**: React 19 + Vite+ (`vp` CLI for dev, build, check, staged)
+- **Routing**: TanStack Router (file-based routes in `src/routes/`)
+- **Styling**: Tailwind CSS v4 + Tailwind Variants (`tv`)
+- **Linter / Formatter**: Oxlint / Oxfmt
+- **Tests**: Vitest (colocated test files)
+
+## Commands
+
+| Task | Command |
+|------|---------|
+| Dev server | `vp dev` |
+| Build | `vp build` |
+| Type-check + lint + test | `vp check` |
+| Pre-commit (staged) | `vp staged` |
+| Format | `vp fmt` |
+| Tests | `bun run test` |
+| Validate (all checks) | `bun run validate` |
+
+## Git Hooks
+
+Managed by Vite+ in `portfolio/.vite-hooks/`. The repo-local `core.hooksPath` points there.
+Hook scripts `cd` into `portfolio/` before running (`cd "$(dirname "$(dirname "$0")")"`).
+
+## CI/CD
+
+GitHub Actions (`.github/workflows/deploy.yml`) → builds and deploys to GitHub Pages as SPA.
