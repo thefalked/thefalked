@@ -4,20 +4,29 @@ import type { Section } from "../../data/portfolio";
 
 const header = tv({
   slots: {
-    root: "relative z-1 flex flex-col gap-4 px-3 py-4 max-sm:gap-3 sm:flex-row sm:items-center sm:justify-between sm:px-6 sm:py-5",
-    prompt:
-      "min-w-0 max-w-full text-[0.8rem] no-underline hover:text-neon-secondary sm:text-[0.9rem] sm:whitespace-nowrap",
+    root: [
+      "relative z-1 flex flex-col gap-4 px-3 py-4 max-sm:gap-3",
+      "sm:flex-row sm:items-center sm:justify-between sm:px-6 sm:py-5",
+    ],
+    prompt: [
+      "min-w-0 max-w-full text-terminal-sm no-underline",
+      "hover:text-neon-secondary",
+      "sm:text-terminal-md sm:whitespace-nowrap",
+    ],
     username: "text-neon",
     host: "text-neon-secondary",
     symbolDim: "text-neon-dim",
     path: "text-neon-muted",
     nav: "flex w-full min-w-0 flex-wrap gap-2 sm:w-auto sm:justify-end sm:gap-1.5",
     navLink: [
-      "group relative inline-flex min-h-11 items-center gap-2 rounded-md px-3 py-2.5 text-[0.85rem] no-underline transition-colors sm:min-h-0 sm:py-1.5 sm:text-[0.9rem]",
+      "group relative inline-flex min-h-11 items-center gap-2",
+      "rounded-md px-3 py-2.5 text-terminal no-underline transition-colors",
       "hover:bg-neon-soft-hover data-[active=true]:bg-neon-soft-hover",
+      "sm:min-h-0 sm:py-1.5 sm:text-terminal-md",
     ],
     navDot: [
-      "hidden h-1.5 w-1.5 shrink-0 rounded-full bg-neon shadow-[0_0_6px_rgb(110_43_145/0.9)]",
+      "hidden h-1.5 w-1.5 shrink-0 rounded-full bg-neon",
+      "shadow-neon-dot",
       "group-data-[active=true]:inline-block",
     ],
     navPrefix: "text-neon-secondary",

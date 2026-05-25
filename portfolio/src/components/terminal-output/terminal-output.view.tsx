@@ -5,28 +5,33 @@ import { getLineDataAttributes, isAsciiBlock, parseKeyInfoLine } from "./termina
 
 const terminalOutput = tv({
   slots: {
-    output:
-      "terminal-scrollbar min-h-0 min-w-0 flex-1 overflow-y-auto overflow-x-hidden pr-1 pb-3 sm:pr-2 sm:pb-4",
+    output: [
+      "terminal-scrollbar min-h-0 min-w-0 flex-1",
+      "overflow-y-auto overflow-x-hidden",
+      "pr-1 pb-3 sm:pr-2 sm:pb-4",
+    ],
     anchor: "",
     line: [
-      "min-w-0 break-words text-[0.85rem] leading-[1.6] text-text sm:text-[0.9rem]",
-      "data-[type=command]:text-[0.9rem]",
+      "min-w-0 break-words text-terminal text-text sm:text-terminal-md",
+      "data-[type=command]:text-terminal-md",
       "data-[type=error]:text-error",
-      "data-[variant=help-heading]:text-[0.8rem] data-[variant=help-heading]:leading-[1.6] data-[variant=help-heading]:text-neon-dim",
-      "data-[variant=help-row]:text-[0.85rem] data-[variant=help-row]:leading-[1.6] data-[variant=help-row]:text-neon data-[variant=help-row]:neon-glow-soft",
-      "data-[variant=help-hint]:text-[0.75rem] data-[variant=help-hint]:leading-[1.5] data-[variant=help-hint]:text-neon-dim",
-      "data-[variant=hint]:text-[0.75rem] data-[variant=hint]:leading-[1.5] data-[variant=hint]:text-neon-dim",
+      "data-[variant=help-heading]:text-terminal-sm data-[variant=help-heading]:text-neon-dim",
+      "data-[variant=help-row]:text-terminal data-[variant=help-row]:text-neon data-[variant=help-row]:neon-glow-soft",
+      "data-[variant=help-hint]:text-terminal-xs data-[variant=help-hint]:text-neon-dim",
+      "data-[variant=hint]:text-terminal-xs data-[variant=hint]:text-neon-dim",
     ],
-    commandPrompt: "font-medium text-neon text-[0.9rem] neon-glow-soft",
+    commandPrompt: "font-medium text-terminal-md text-neon neon-glow-soft",
     commandText: "text-text-bright",
-    keyInfoRow:
-      "grid grid-cols-[5.5ch_1fr] items-baseline gap-x-4 tabular-nums text-[0.85rem] leading-[1.6]",
-    keyInfoLabel: "font-medium text-[0.8rem] text-neon neon-glow-soft",
+    keyInfoRow: ["grid grid-cols-[5.5ch_1fr] items-baseline", "gap-x-4 tabular-nums text-terminal"],
+    keyInfoLabel: "font-medium text-terminal-sm text-neon neon-glow-soft",
     keyInfoValue: "text-text-bright",
-    link: "text-[0.82rem] text-neon-muted no-underline hover:text-neon hover:neon-glow-hover",
-    linkDescription: "text-[0.75rem] text-neon-dim",
+    link: [
+      "text-terminal-link text-neon-muted no-underline",
+      "hover:text-neon hover:neon-glow-hover",
+    ],
+    linkDescription: "text-terminal-xs text-neon-dim",
     asciiScroll: "max-w-full overflow-x-auto",
-    ascii: "m-0 min-w-max font-mono whitespace-pre text-[0.7rem] leading-[1.2] text-neon",
+    ascii: "m-0 min-w-max font-mono whitespace-pre text-terminal-2xs text-neon",
   },
 });
 
