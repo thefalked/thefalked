@@ -33,6 +33,12 @@ import type { FormEvent } from "react";
 onSubmit: (e: React.FormEvent) => void;
 ```
 
+## Styling
+
+- All styles live in `tv()` slots — never use ID selectors or separate CSS rules for component elements.
+- Browser resets (margin, padding, font inheritance) are handled by Tailwind Preflight — don't duplicate in slots.
+- Mobile-first only: set mobile styles as base, override at `lg:` for desktop. Never use `max-*` variants.
+
 ## Exports
 
 - Named exports only — no default exports.
