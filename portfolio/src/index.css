@@ -1,0 +1,145 @@
+@import "tailwindcss";
+
+@theme {
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+
+  /* #6e2b91 palette — roles mirror bradeac.dev */
+  --color-neon: #6e2b91;
+  --color-neon-secondary: #b88fd4;
+  --color-neon-muted: #7a6a8f;
+  --color-neon-dim: #3e3549;
+  --color-neon-faint: #524560;
+  --color-text-bright: #f0f0f0;
+  --color-neon-soft: rgb(110 43 145 / 0.1);
+  --color-neon-soft-hover: rgb(110 43 145 / 0.18);
+  --color-neon-glow: rgb(155 95 196 / 0.45);
+  --color-bg: #050508;
+  --color-bg-elevated: rgb(10 8 14 / 0.96);
+  --color-border: rgb(208 208 208 / 0.14);
+  --color-text: #d0d0d0;
+  --color-text-muted: #8f8f8f;
+  --color-error: #ff6b9a;
+  --color-selection: rgb(110 43 145 / 0.45);
+}
+
+@layer base {
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+  }
+
+  html {
+    overflow: hidden;
+  }
+
+  html,
+  body,
+  #root {
+    height: 100dvh;
+    max-height: 100dvh;
+  }
+
+  body {
+    margin: 0;
+    font-family: var(--font-mono);
+    background-color: var(--color-bg);
+    color: var(--color-text);
+    -webkit-font-smoothing: antialiased;
+    overflow: hidden;
+    padding-left: env(safe-area-inset-left, 0px);
+    padding-right: env(safe-area-inset-right, 0px);
+  }
+
+  a {
+    color: var(--color-neon-muted);
+    text-decoration: none;
+  }
+
+  button,
+  input {
+    font: inherit;
+  }
+
+  #terminal-input {
+    line-height: 1.6;
+    margin: 0;
+    min-height: 0;
+    padding: 0;
+  }
+
+  .terminal-input-hint {
+    --terminal-placeholder-delay: 2.5s;
+    opacity: 0;
+    animation: terminal-input-hint-in 0.2s ease var(--terminal-placeholder-delay) forwards;
+  }
+
+  @keyframes terminal-input-hint-in {
+    to {
+      opacity: 1;
+    }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .terminal-input-hint {
+      animation: none;
+      opacity: 1;
+    }
+  }
+
+  ::selection {
+    background-color: var(--color-selection);
+    color: var(--color-text-bright);
+  }
+
+  ::-moz-selection {
+    background-color: var(--color-selection);
+    color: var(--color-text-bright);
+  }
+}
+
+@utility neon-glow-soft {
+  text-shadow: 0 0 10px rgb(110 43 145 / 0.3);
+}
+
+@utility neon-glow {
+  text-shadow: 0 0 8px var(--color-neon-glow);
+}
+
+@utility neon-glow-strong {
+  text-shadow:
+    0 0 4px var(--color-neon),
+    0 0 14px var(--color-neon-glow);
+}
+
+@utility neon-glow-hover {
+  text-shadow:
+    0 0 10px var(--color-neon),
+    0 0 20px var(--color-neon-glow);
+}
+
+@utility terminal-scrollbar {
+  scrollbar-width: thin;
+  scrollbar-color: var(--color-neon) transparent;
+
+  &::-webkit-scrollbar {
+    width: 6px;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background: rgb(110 43 145 / 0.5);
+    border-radius: 999px;
+  }
+}
+
+@utility sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
