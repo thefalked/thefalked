@@ -6,13 +6,13 @@ import { getLineDataAttributes, isAsciiBlock, parseKeyInfoLine } from "./termina
 const terminalOutput = tv({
   slots: {
     output: [
-      "terminal-scrollbar min-h-0 min-w-0 flex-1",
+      "@container terminal-scrollbar min-h-0 min-w-0 flex-1",
       "overflow-y-auto overflow-x-hidden",
-      "pr-1 pb-3 sm:pr-2 sm:pb-4",
+      "pr-1 pb-3 lg:pr-2 lg:pb-4",
     ],
     anchor: "",
     line: [
-      "min-w-0 break-words text-terminal text-text sm:text-terminal-md",
+      "min-w-0 break-words text-terminal text-text lg:text-terminal-md",
       "data-[type=command]:text-terminal-md",
       "data-[type=error]:text-error",
       "data-[variant=help-heading]:text-terminal-sm data-[variant=help-heading]:text-neon-dim",
@@ -30,8 +30,9 @@ const terminalOutput = tv({
       "hover:text-neon hover:neon-glow-hover",
     ],
     linkDescription: "text-terminal-xs text-neon-dim",
-    asciiScroll: "max-w-full overflow-x-auto",
-    ascii: "m-0 min-w-max font-mono whitespace-pre text-terminal-2xs text-neon",
+    asciiScroll: "max-w-full overflow-x-auto overflow-y-hidden",
+    ascii:
+      "m-0 font-mono whitespace-pre text-neon text-[clamp(0.4rem,2.2cqi,0.75rem)] leading-[1.2]",
   },
 });
 

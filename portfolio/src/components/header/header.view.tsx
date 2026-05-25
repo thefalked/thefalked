@@ -5,24 +5,24 @@ import type { Section } from "../../data/portfolio";
 const header = tv({
   slots: {
     root: [
-      "relative z-1 flex flex-col gap-4 px-3 py-4 max-sm:gap-3",
-      "sm:flex-row sm:items-center sm:justify-between sm:px-6 sm:py-5",
+      "relative z-1 flex flex-col gap-3 px-3 py-4",
+      "lg:flex-row lg:items-center lg:justify-between lg:gap-4 lg:px-6 lg:py-5",
     ],
     prompt: [
       "min-w-0 max-w-full text-terminal-sm no-underline",
       "hover:text-neon-secondary",
-      "sm:text-terminal-md sm:whitespace-nowrap",
+      "lg:text-terminal-md lg:whitespace-nowrap",
     ],
     username: "text-neon",
     host: "text-neon-secondary",
     symbolDim: "text-neon-dim",
     path: "text-neon-muted",
-    nav: "flex w-full min-w-0 flex-wrap gap-2 sm:w-auto sm:justify-end sm:gap-1.5",
+    nav: "flex w-full min-w-0 flex-wrap gap-2 lg:w-auto lg:justify-end lg:gap-1.5",
     navLink: [
       "group relative inline-flex min-h-11 items-center gap-2",
       "rounded-md px-3 py-2.5 text-terminal no-underline transition-colors",
       "hover:bg-neon-soft-hover data-[active=true]:bg-neon-soft-hover",
-      "sm:min-h-0 sm:py-1.5 sm:text-terminal-md",
+      "lg:min-h-0 lg:py-1.5 lg:text-terminal-md",
     ],
     navDot: [
       "hidden h-1.5 w-1.5 shrink-0 rounded-full bg-neon",

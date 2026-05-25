@@ -7,23 +7,23 @@ const terminal = tv({
   slots: {
     root: [
       "flex min-h-70 max-h-dvh h-full w-full min-w-0 max-w-terminal",
-      "flex-col overflow-hidden rounded-terminal border border-border",
+      "flex-col overflow-hidden border border-border",
       "bg-bg-elevated backdrop-blur-md shadow-neon-card",
-      "lg:min-h-0 lg:max-h-full sm:rounded-terminal-sm",
+      "lg:min-h-0 lg:max-h-full lg:rounded-terminal-sm",
     ],
     titlebar: [
       "flex min-w-0 items-center justify-between gap-2",
       "border-b border-border px-3 py-3",
-      "sm:gap-3 sm:px-4 sm:py-3.5",
+      "lg:gap-3 lg:px-4 lg:py-3.5",
     ],
     controls: "flex shrink-0 gap-1.5",
     controlRed: "h-2.5 w-2.5 rounded-full bg-control-red",
     controlYellow: "h-2.5 w-2.5 rounded-full bg-control-yellow",
     controlGreen: "h-2.5 w-2.5 rounded-full bg-control-green",
-    title: "min-w-0 truncate text-right text-terminal-2xs text-text-muted sm:text-terminal-link",
+    title: "min-w-0 truncate text-right text-terminal-2xs text-text-muted lg:text-terminal-link",
     body: [
       "flex min-h-0 flex-1 flex-col overflow-hidden",
-      "px-3 pt-4 pb-3 sm:px-4 sm:pt-5 sm:pb-4",
+      "px-3 pt-4 pb-3 lg:px-4 lg:pt-5 lg:pb-4",
     ],
   },
 });

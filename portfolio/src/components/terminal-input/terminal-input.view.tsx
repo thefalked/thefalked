@@ -9,14 +9,14 @@ import { TERMINAL_INPUT_PLACEHOLDER } from "./terminal-input.content";
 
 const terminalInput = tv({
   slots: {
-    form: "min-w-0 shrink-0 border-t border-border pt-3 sm:pt-3.5",
+    form: "min-w-0 shrink-0 border-t border-border pt-3 lg:pt-3.5",
     label: "flex min-w-0 items-baseline gap-x-1 text-terminal-md",
     prompt: "shrink-0 font-medium leading-[inherit] text-neon neon-glow-soft",
     field: "relative min-w-0 flex-1",
     input: [
-      "relative z-1 w-full border-0 bg-transparent p-0",
-      "text-[inherit] leading-[inherit] text-text-bright",
-      "caret-neon outline-none",
+      "relative z-1 w-full min-h-0 border-0 bg-transparent",
+      "text-[max(16px,1em)] text-text-bright caret-neon outline-none",
+      "lg:text-terminal-md",
     ],
     hint: "terminal-input-hint pointer-events-none absolute inset-0 z-0 truncate text-neon-dim",
     srOnly: "sr-only",

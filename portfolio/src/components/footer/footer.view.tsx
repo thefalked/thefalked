@@ -5,16 +5,16 @@ const footer = tv({
     root: [
       "relative z-1 flex flex-col gap-4 px-3 pt-4",
       "pb-[max(1.25rem,env(safe-area-inset-bottom))] text-terminal-sm",
-      "sm:flex-row sm:items-center sm:justify-between sm:px-6 sm:pb-5 sm:text-terminal-link",
+      "lg:flex-row lg:items-center lg:justify-between lg:px-6 lg:pb-5 lg:text-terminal-link",
     ],
     statusGroup: "flex min-w-0 flex-wrap items-center gap-2.5",
     statusDot: ["h-[7px] w-[7px] shrink-0 rounded-full bg-neon", "shadow-neon-dot"],
     status: "text-neon",
     copyright: "text-neon-dim",
-    links: "flex flex-wrap gap-3 sm:gap-4",
+    links: "flex flex-wrap gap-3 lg:gap-4",
     link: [
       "inline-flex min-h-11 items-center text-neon-dim no-underline",
-      "hover:text-neon-muted sm:min-h-0",
+      "hover:text-neon-muted lg:min-h-0",
     ],
   },
 });
