@@ -31,7 +31,7 @@ describe("asciiBanner", () => {
     expect(asciiBanner).toContain("____");
     expect(asciiBanner).toContain("/ ___");
     expect(asciiBanner).not.toContain("Guiliano");
-    expect(asciiBanner.startsWith("   ____")).toBe(true);
+    expect(asciiBanner.startsWith("  ____")).toBe(true);
   });
 });
 
