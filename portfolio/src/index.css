@@ -3,6 +3,38 @@
 @theme {
   --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
 
+  /* terminal type scale */
+  --text-terminal-2xs: 0.7rem;
+  --text-terminal-2xs--line-height: 1.2;
+  --text-terminal-xs: 0.75rem;
+  --text-terminal-xs--line-height: 1.5;
+  --text-terminal-sm: 0.8rem;
+  --text-terminal-sm--line-height: 1.6;
+  --text-terminal-link: 0.82rem;
+  --text-terminal-link--line-height: 1.6;
+  --text-terminal: 0.85rem;
+  --text-terminal--line-height: 1.6;
+  --text-terminal-md: 0.9rem;
+  --text-terminal-md--line-height: 1.6;
+
+  /* shadows */
+  --shadow-neon-dot: 0 0 6px rgb(110 43 145 / 0.9);
+  --shadow-neon-card:
+    0 0 0 1px rgb(110 43 145 / 0.06), 0 0 32px rgb(110 43 145 / 0.06),
+    inset 0 0 48px rgb(110 43 145 / 0.03);
+
+  /* traffic light controls */
+  --color-control-red: #ff5f57;
+  --color-control-yellow: #febc2e;
+  --color-control-green: #28c840;
+
+  /* terminal sizing */
+  --container-terminal: 57.5rem;
+
+  /* border radius */
+  --radius-terminal: 0.75rem;
+  --radius-terminal-sm: 0.875rem;
+
   /* #6e2b91 palette — roles mirror bradeac.dev */
   --color-neon: #6e2b91;
   --color-neon-secondary: #b88fd4;
@@ -31,6 +63,12 @@
 
   html {
     overflow: hidden;
+  }
+
+  @media (max-width: 639px) {
+    html {
+      font-size: 112.5%;
+    }
   }
 
   html,
@@ -62,6 +100,7 @@
   }
 
   #terminal-input {
+    font-size: max(16px, 1em);
     line-height: 1.6;
     margin: 0;
     min-height: 0;
