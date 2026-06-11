@@ -28,6 +28,7 @@ describe("getHomeLines", () => {
 
     expect(links).toHaveLength(portfolio.socials.length + 3);
     expect(links.some((line) => line.type === "link" && line.label === "github")).toBe(true);
+    expect(links.some((line) => line.type === "link" && line.label === "lohanmoraes")).toBe(true);
     expect(links.some((line) => line.type === "link" && line.label === "04-design-system")).toBe(
       true,
     );

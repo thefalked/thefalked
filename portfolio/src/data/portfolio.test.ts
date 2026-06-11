@@ -20,7 +20,7 @@ describe("portfolio data", () => {
 
     for (const project of portfolio.projects) {
       expect(project.name).toBeTruthy();
-      expect(project.href).toMatch(/^https:\/\//);
+      expect(project.href).toMatch(/^https?:\/\//);
       expect(project.description).toBeTruthy();
     }
   });

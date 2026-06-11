@@ -17,10 +17,10 @@
 
 | Project | Description |
 |---------|-------------|
-| [**04-design-system**](https://github.com/thefalked/04-design-system) | Monorepo for a component library and design system |
-| [**02-ignite-timer**](https://github.com/thefalked/02-ignite-timer) | Pomodoro timer built with React, TypeScript, and Vite |
-| [**letmeask**](https://github.com/thefalked/letmeask) | Real-time Q&A rooms with Firebase — built during NLW #06 |
-| [**Drink-Count**](https://github.com/thefalked/Drink-Count) | Simple app to track drink liters and costs |
+| [**lohanmoraes**](http://lohanmoraes.com/) | Singer and instrument teacher portfolio |
+| [**04-design-system**](https://thefalked.github.io/04-design-system/?path=/story/home--page) | Monorepo for a component library and design system |
+| [**02-ignite-timer**](https://ignite-timer-thefalked.vercel.app/) | Pomodoro timer built with React, TypeScript, and Vite |
+| [**Drink-Count**](https://drink-count.vercel.app/pt-BR) | Simple app to track drink liters and costs |
 
 ---
 

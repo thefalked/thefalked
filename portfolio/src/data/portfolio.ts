@@ -15,23 +15,23 @@ export const portfolio = {
   ],
   projects: [
     {
+      name: "lohanmoraes",
+      href: "https://lohanmoraes.com/",
+      description: "Singer and instrument teacher portfolio.",
+    },
+    {
       name: "04-design-system",
-      href: "https://github.com/thefalked/04-design-system",
+      href: "https://thefalked.github.io/04-design-system/?path=/story/home--page",
       description: "Monorepo for a component library and design system.",
     },
     {
       name: "02-ignite-timer",
-      href: "https://github.com/thefalked/02-ignite-timer",
+      href: "https://ignite-timer-thefalked.vercel.app/",
       description: "Pomodoro timer built with React, TypeScript, and Vite.",
     },
     {
-      name: "letmeask",
-      href: "https://github.com/thefalked/letmeask",
-      description: "Real-time Q&A rooms with Firebase — built during NLW #06.",
-    },
-    {
       name: "Drink-Count",
-      href: "https://github.com/thefalked/Drink-Count",
+      href: "https://drink-count.vercel.app/pt-BR",
       description: "Simple app to track drink liters and costs.",
     },
   ],
